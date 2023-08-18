@@ -19,6 +19,4 @@ public class BinarySearchAlgorithm implements SearchingService {
         if (input[midIndex] < targetElement) return search(input, targetElement, midIndex + 1, lastIndex);
         else return -1;
     }
-
-
 }
